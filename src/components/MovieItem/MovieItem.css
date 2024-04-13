@@ -1,0 +1,42 @@
+.itemContainer{
+    background-color: aliceblue;
+    width: 14rem;
+    /* width: 50%; */
+    height: 23rem;
+    border-radius: 1rem;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    /* padding: 1rem; */
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.075);
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.itemImage{
+    width: 14rem;
+    /* width: 1000%; */
+    height: 19rem;
+    border-radius: 1rem;
+    border: none;
+    /* object-fit: cover; */
+}
+
+.movieTitle{
+    font-weight: 600;
+    width: 100%;
+    margin-left: 1rem;
+}
+
+.movieType{
+    width: 100%;
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-align:left;
+    color: rgb(90, 90, 90);
+    margin-left: 1.8rem;
+    margin-bottom: 0.5rem;
+}
